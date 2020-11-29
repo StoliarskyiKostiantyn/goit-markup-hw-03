@@ -1,0 +1,209 @@
+:root {
+    --accent-color: #2196F3;
+}
+body{
+    text-decoration-color: black;
+}
+a{text-decoration: none; color: black;}
+ul{list-style: none;}
+
+.logo-link{
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+}
+
+
+.current,
+.logo-text,
+.nav-link:focus, 
+.nav-link:hover,
+.nav-tel:focus,
+.nav-tel:hover
+{
+    color: var(--accent-color);
+}
+
+.nav-link {
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav-tel{
+font-family: Roboto;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143x;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/*=============MAIN SECTION========*/
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+font-family: Roboto;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-button{
+background-color: var(--accent-color) ;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+/*=============END MAIN SECTION========*/
+
+/*=============ADVANTEGES SECTION========*/
+.advanteges-title{
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.advanteges-text {
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*=============END ADVANTEGES SECTION========*/
+
+
+/*=============WHATWEDO SECTION========*/
+.section-title {
+font-family: Roboto;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.667;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/*============= END WHATWEDO SECTION========*/
+
+/*=============OURTEAM SECTION========*/
+.ourteam-member-name{
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;}
+
+.ourteam-member-position {
+font-family: Roboto;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*============= END OURTEAM SECTION========*/
+
+/*=============FOOTER========*/
+.footer{
+    background-color: #2F303A;
+}
+.text-dark-theme{
+    color: #FFFFFF;
+}
+
+.adress-link {
+font-family: Roboto;
+font-weight: normal;
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.mail-link{
+font-family: Roboto;
+font-weight: normal;
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-link{
+font-family: Roboto;
+font-weight: normal;
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*============= END FOOTER========*/
+
+/*=======================================PORTFOLIO==========================*/
+.list-button{
+background: #F5F4FA;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.list-button:hover,
+.list-button:focus
+{
+    background:var(--accent-color);
+}
+
+.portfolio-card-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-card-category{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
