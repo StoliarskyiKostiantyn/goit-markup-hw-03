@@ -33,7 +33,7 @@ letter-spacing: 0.03em;
 margin-right: 95px;
 }
 .container{
-    width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -89,7 +89,8 @@ color: #757575;
     align-content: center;
     align-items: center;
     max-height: 600px; 
-    min-width: 1600px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -120,7 +121,9 @@ border: none;
 border-radius: 6px;
 padding-top: 10px;
 padding-bottom: 10px;
-max-width: 200px;
+padding-left: 32px;
+padding-right: 32px;
+min-width: 200px;
 cursor: pointer;
 }
 /*=============END MAIN SECTION========*/
@@ -128,7 +131,6 @@ cursor: pointer;
 /*=============ADVANTEGES SECTION========*/
 .advanteges.container{
     margin-top: 94px;
-    margin-bottom: 94px;
 }
 .advanteges-list{
     display: flex;
@@ -159,8 +161,8 @@ color: #757575;
 
 /*=============WHATWEDO SECTION========*/
 .whatwedo.container{
+
     margin-top: 94px;
-    margin-bottom: 94px;
 }
 .section-title {
 font-family: Roboto;
@@ -174,25 +176,33 @@ margin-bottom: 50px;
 }
 .whatwedo-list{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .whatwedo-list-item:not(:last-child){margin-right: 30px}
 /*============= END WHATWEDO SECTION========*/
 
 /*=============OURTEAM SECTION========*/
-.ourteam{background-color: #F5F4FA;
+.ourteam
+    {background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
     };
 .ourteam.container{
     display: flex;
+
+    
 }
 .ourteam-list{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-    .ourteam-list-item{background-color: white;
-       /* border: solid 1px black;*/
+}
+.ourteam-list-item{background-color: white;
+    border: solid 1px black;
     border-bottom-left-radius: 6px;
-border-bottom-right-radius: 6px;}
+     border-bottom-right-radius: 6px;}
 .ourteam-list-item:not(:last-child){margin-right: 30px}
 
 .ourteam-member-name{
