@@ -33,7 +33,7 @@ letter-spacing: 0.03em;
 margin-right: 95px;
 }
 .container{
-    min-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
@@ -233,6 +233,7 @@ color: #757575;
     background-color: #2F303A;
 }
 .footer.container{
+    margin-top: 94px;
     padding-top: 60px;
     padding-bottom: 60px;
     max-height: 252px;
@@ -283,7 +284,6 @@ color: rgba(255, 255, 255, 0.6);
 /*=======================================PORTFOLIO==========================*/
 .portfolio.container{
     margin-top: 94px;
-    margin-bottom: 94px;
 }
 .buttons-list{
     display: flex; 
@@ -295,15 +295,16 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-cardlist{
     display: flex;
     flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
 }
-.portfolio-cardlist{display: flex;}
-.portfolio-card
-{    /*display: block;*/
-    box-sizing: border-box;
-    margin-bottom: 30px;
-    outline: solid 1px #EEEEEE;
+.portfolio-card{
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+
 }
-.portfolio-card:nth-child(3n+2){margin-right: 30px;margin-left: 30px;}
+
 .list-button{  
 background: #F5F4FA;
 font-family: Roboto;
