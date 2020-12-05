@@ -161,7 +161,6 @@ color: #757575;
 
 /*=============WHATWEDO SECTION========*/
 .whatwedo.container{
-
     margin-top: 94px;
 }
 .section-title {
@@ -183,20 +182,20 @@ margin-bottom: 50px;
 /*============= END WHATWEDO SECTION========*/
 
 /*=============OURTEAM SECTION========*/
-.ourteam
-    {background-color: #F5F4FA;
+.ourteam-section
+    {
+background-color: #F5F4FA;
     padding-top: 94px;
-    padding-bottom: 94px;
-    };
-.ourteam.container{
-    display: flex;    
+    padding-bottom: 94px
+        };
+.ourteam .container{
+    display: flex; 
 }
 .ourteam-list{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .ourteam-list-item{
     display: block;
     background-color: #FFFFFF;
@@ -233,7 +232,6 @@ color: #757575;
     background-color: #2F303A;
 }
 .footer.container{
-    margin-top: 94px;
     padding-top: 60px;
     padding-bottom: 60px;
     max-height: 252px;
@@ -284,12 +282,14 @@ color: rgba(255, 255, 255, 0.6);
 /*=======================================PORTFOLIO==========================*/
 .portfolio.container{
     margin-top: 94px;
+    margin-bottom: 94px
 }
 .buttons-list{
     display: flex; 
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    
 }
 .buttons-list-item:not(:last-child){margin-right: 8px}
 .portfolio-cardlist{
