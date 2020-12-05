@@ -189,20 +189,21 @@ margin-bottom: 50px;
     padding-bottom: 94px;
     };
 .ourteam.container{
-    display: flex;
-
-    
+    display: flex;    
 }
 .ourteam-list{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-}
-.ourteam-list-item{background-color: white;
-    border: solid 1px black;
+
+.ourteam-list-item{
+    display: block;
+    background-color: #FFFFFF;
     border-bottom-left-radius: 6px;
-     border-bottom-right-radius: 6px;}
+    border-bottom-right-radius: 6px;
+padding-bottom: 30px;}
+     
 .ourteam-list-item:not(:last-child){margin-right: 30px}
 
 .ourteam-member-name{
@@ -238,7 +239,8 @@ color: #757575;
 }
 .footer .contacts-list{
     margin-top: 20px;
-    margin-bottom: 20px;}
+   }
+
 .contacts-list-item:not(:last-child){margin-bottom: 9px;}
 
 
