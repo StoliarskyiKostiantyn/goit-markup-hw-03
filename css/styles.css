@@ -170,6 +170,7 @@ color: #757575;
 /*=============WHATWEDO SECTION========*/
 .whatwedo.container{
     margin-top: 94px;
+    padding-bottom: 94px;
 }
 .section-title {
 font-family: Roboto;
@@ -195,7 +196,6 @@ margin-bottom: 50px;
 background-color: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin-top: 94px;
         };
 .ourteam .container{
     display: flex; 
@@ -239,10 +239,10 @@ color: #757575;
 /*=============FOOTER========*/
 .footer{
     background-color: #2F303A;
-}
-.footer.container{
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.footer.container{
     max-height: 252px;
 }
 .footer .contacts-list{
