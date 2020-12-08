@@ -43,12 +43,20 @@ margin-right: 95px;
 .navigation,
 .nav-list
 {display: flex;
-align-items: center;}
+align-items: center;
+flex-basis: 1200px;}
 .nav-list-item:not(:last-child){margin-right: 50px}
-.header{min-height: 80px;
+.header{height: 80px;
 border-bottom: 2px solid #ECECEC;}
-
-
+.nav-list.adress{
+    flex-basis: content;
+justify-content: flex-end;
+}
+.telephone{
+    display: block;
+    width: max-content;
+    height: max-content;
+}
 .current,
 .logo-text,
 .nav-link:focus, 
@@ -186,7 +194,8 @@ margin-bottom: 50px;
     {
 background-color: #F5F4FA;
     padding-top: 94px;
-    padding-bottom: 94px
+    padding-bottom: 94px;
+    margin-top: 94px;
         };
 .ourteam .container{
     display: flex; 
@@ -304,6 +313,11 @@ color: rgba(255, 255, 255, 0.6);
     flex-basis: calc(100% / 3 - 30px);
 }
 .portfolio-card-text{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -342,7 +356,6 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
-padding-left: 24px;
 }
 
 .portfolio-card-category{
@@ -353,6 +366,6 @@ font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
 color: #757575;
-padding-left: 24px;
+
 }
 
